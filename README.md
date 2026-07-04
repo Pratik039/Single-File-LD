@@ -20,7 +20,7 @@ Unzip/clone the provided archive:
 
 ## 📦 Requirements
 
-Install Anaconda in your system
+Install Anaconda on your system from **https://repo.anaconda.com/archive/**
 
 Create an environment using the configuration file **baseline.yaml** by running:
 
