@@ -30,12 +30,12 @@ Activate the created environment by running:
 
 conda activate baseline
 
-Install the required Python packages after creating the environment:
+Install the required Python packages after creating the environment by running:
 
 pip install pyannote.audio==0.0.1
-pip install openai-whisper
-pip install fastcluster==1.2.0
-pip install kaldi_io
+openai-whisper
+fastcluster==1.2.0
+kaldi_io
 
 
 ### 2. Prepare the Audio File
