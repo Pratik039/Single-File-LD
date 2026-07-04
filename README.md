@@ -49,11 +49,11 @@ Place the audio file you want to process anywhere on your system and note its fu
 
 Run the following command:
 
-python3 language_diarization.py AUDIO_FILE
+python3 ld.py path to AUDIO_FILE
 
 **Example**
 
-python3 language_diarization.py /media/MyDataDrive/pratik/single_file_system_LD/B007.wav
+python3 ld.py /home/pratik/speech/single_file_system_LD/audio/sample_audio.wav
 
 The system automatically creates an output directory with the **same name as the input audio file**.
 
@@ -61,12 +61,12 @@ The system automatically creates an output directory with the **same name as the
 
 To save the results in a directory of your choice:
 
-python3 language_diarization.py --output_dir OUTPUT_DIR AUDIO_FILE
+python3 ld.py --output_dir OUTPUT_DIR AUDIO_FILE
 
 
 **Example**
 
-python3 language_diarization.py --output_dir /media/MyDataDrive/pratik single_file_system_LD/output/media/MyDataDrive/pratik/single_file_system_LD/B007.wav
+python3 ld.py --output_dir /home/pratik/speech/single_file_system_LD/output/sample_audio.wav
 
 ## 📁 Output
 
