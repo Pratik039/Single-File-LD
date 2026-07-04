@@ -11,23 +11,32 @@ An end-to-end **Language Diarization** pipeline for processing a **single audio 
 * ⚡ Simple command-line interface
 * 🔧 Custom output directory support
 
-
-## 📦 Requirements
-
-Install the required Python packages before running the system:
-
-pip install kaldi_io
-pip install fastcluster
-pip install openai-whisper
-pip install pyannote.audio==0.0.1
-
 ## 🚀 Getting Started
 
 ### 1. Extract the Project
 
-Unzip the provided archive:
+Unzip/clone the provided archive:
 
-ld.zip
+
+## 📦 Requirements
+
+Install Anaconda in your system
+
+Create an environment using the configuration file **baseline.yaml** by running:
+
+conda env create -f environment.yaml
+
+Activate the created environment by running:
+
+conda activate baseline
+
+Install the required Python packages after creating the environment:
+
+pip install pyannote.audio==0.0.1
+pip install openai-whisper
+pip install fastcluster==1.2.0
+pip install kaldi_io
+
 
 ### 2. Prepare the Audio File
 
@@ -95,7 +104,6 @@ Language Diarization
         │
         ▼
 Output Files
-
 
 
 ## 🛠️ Troubleshooting
