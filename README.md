@@ -33,6 +33,7 @@ conda activate baseline
 Install the required Python packages after creating the environment by running:
 
 pip install pyannote.audio==0.0.1
+numpy==1.26.4
 openai-whisper
 fastcluster==1.2.0
 kaldi_io
