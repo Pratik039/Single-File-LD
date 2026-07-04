@@ -24,7 +24,7 @@ Install Anaconda in your system
 
 Create an environment using the configuration file **baseline.yaml** by running:
 
-conda env create -f environment.yaml
+conda env create -f baseline.yaml
 
 Activate the created environment by running:
 
