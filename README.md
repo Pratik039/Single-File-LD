@@ -30,9 +30,15 @@ Activate the created environment by running:
 
 conda activate baseline
 
-Install the required Python packages after creating the environment by running:
+Make sure the pip version is below 24.1
 
-pip install pyannote.audio==0.0.1 numpy==1.26.4 openai-whisper fastcluster==1.2.0 kaldi_io pip==24.0 pytorch-lightning==1.6.5
+Run this command:
+
+pip install pip==24.0
+
+Install the other required Python packages after creating the environment and setting the required version of **pip** by running:
+
+pip install pyannote.audio==0.0.1 numpy==1.26.4 openai-whisper fastcluster==1.2.0 kaldi_io pytorch-lightning==1.6.5
 
 
 ### 2. Prepare the Audio File
