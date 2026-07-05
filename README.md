@@ -116,7 +116,7 @@ python3 view_rttm.py /home/pratik/speech/single_file_system_LD/sample_audio/dev_
 
 ## 🔑 Hugging Face Authentication
 
-The script `VAD_kaldi_segments.py` uses a **Pyannote Voice Activity Detection (VAD)** model hosted on Hugging Face.
+The script `VAD_kaldi_segments.py` uses a **pyannote/segmentation** model hosted on Hugging Face.
 
 Before running the system:
 
@@ -124,7 +124,7 @@ Before running the system:
 2. Generate an **Access Token** from:
 
    * **Profile → Settings → Access Tokens → Create New Token**
-3. Accept the license agreement for the required Pyannote models on Hugging Face.
+3. Accept the license agreement for the required Pyannote model (**pyannote/segmentation**) on Hugging Face.
 4. Replace the token in `VAD_kaldi_segments.py` with your own token (or authenticate using the Hugging Face CLI).
 
 > **Note:** The VAD step will not run unless a valid Hugging Face token is provided.
