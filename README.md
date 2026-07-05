@@ -1,6 +1,6 @@
 # 🎙️ Single File Language Diarization System
 
-An end-to-end **Language Diarization** pipeline for processing a **single audio file**. The system performs **Voice Activity Detection (VAD)**, extracts language-related features, and generates language diarization outputs.
+A clustering based **Language Diarization** pipeline for processing a **single audio file**. The system performs **Voice Activity Detection (VAD)**, extracts language-related features, and generates language diarization outputs.
 
 
 ## ✨ Features
