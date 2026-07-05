@@ -6,7 +6,7 @@ from pyannote.audio.pipelines import VoiceActivityDetection
 from pyannote.audio import Model
 
 def pyannote_model_instance():
-    model = Model.from_pretrained("pyannote/segmentation", use_auth_token="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")
+    model = Model.from_pretrained("pyannote/segmentation", use_auth_token="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")
     HYPER_PARAMETERS = {
         "onset": 0.5,
         "offset": 0.5,
