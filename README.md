@@ -24,22 +24,27 @@ Install Anaconda on your system from **https://repo.anaconda.com/archive/**
 
 Create an environment using the configuration file **baseline.yaml** by running:
 
+```text
 conda env create -f baseline.yaml
+```
 
 Activate the created environment by running:
 
+```text
 conda activate baseline
-
+```
 Make sure the pip version is below 24.1
 
 Run this command:
 
+```text
 pip install pip==24.0
-
+```
 Install the other required Python packages after creating the environment and setting the required version of **pip** by running:
 
+```text
 pip install pyannote.audio==0.0.1 numpy==1.26.4 openai-whisper fastcluster==1.2.0 kaldi_io pytorch-lightning==1.6.5
-
+```
 
 ### 2. Prepare the Audio File
 
@@ -52,11 +57,14 @@ Place the audio file you want to process anywhere on your system and note its fu
 
 Run the following command:
 
+```text
 python3 ld.py path to AUDIO_FILE
-
+```
 **Example**
 
+```text
 python3 ld.py /home/pratik/speech/single_file_system_LD/audio/sample_audio.wav
+```
 
 The system automatically creates an output directory with the **same name as the input audio file**.
 
@@ -64,12 +72,15 @@ The system automatically creates an output directory with the **same name as the
 
 To save the results in a directory of your choice:
 
+```text
 python3 ld.py --output_dir OUTPUT_DIR AUDIO_FILE
-
+```
 
 **Example**
 
+```text
 python3 ld.py --output_dir /home/pratik/speech/single_file_system_LD/output/sample_audio.wav
+```
 
 ## 📁 Output
 
@@ -104,15 +115,19 @@ Output Files
 
 Install the required Python packages by running:
 
+```text
 pip install -r requirements.txt
-
+```
 Then run the following command:
 
+```text
 python3 view_rttm.py path to RTTM_FILE
-
+```
 **Example**
 
+```text
 python3 view_rttm.py /home/pratik/speech/single_file_system_LD/sample_audio/dev_rttm/sample_audio_output.rttm
+```
 
 ## 🔑 Hugging Face Authentication
 
