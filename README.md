@@ -96,7 +96,7 @@ Input Audio (.wav)
 Voice Activity Detection (Pyannote)
         │
         ▼
-Feature Extraction
+ Feature Extraction
         │
         ▼
 Language Diarization
@@ -104,16 +104,17 @@ Language Diarization
         ▼
 Generated RTTM File
         │
-        ├──────────────► RTTM Visualization (RTTM Viewer)
+        ├
         │
         ▼
-Output Files
+RTTM Visualization (RTTM Viewer)
 ```
 
 
 ## 📊 RTTM Visualization
 
-Install the required Python packages by running:
+After the RTTM file is generated for the input audio, this is an optional step to visualize the contents of the RTTM file. 
+To run this, first install the required Python packages by:
 
 ```text
 pip install -r requirements.txt
