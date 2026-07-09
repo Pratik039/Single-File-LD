@@ -79,7 +79,7 @@ python3 ld.py --output_dir /path_to_OUTPUT_DIR /path_to_AUDIO_FILE
 **Example**
 
 ```text
-python3 ld.py --output_dir /home/pratik/speech/single_file_system_LD/output /home/pratik/speech/single_file_system_LD/output/sample_audio.wav
+python3 ld.py --output_dir /home/pratik/speech/single_file_system_LD/output /home/pratik/speech/single_file_system_LD/audio/sample_audio.wav
 ```
 
 ## 📁 Output
