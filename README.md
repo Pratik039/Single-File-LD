@@ -58,7 +58,7 @@ Place the audio file you want to process anywhere on your system and note its fu
 Run the following command:
 
 ```text
-python3 ld.py path to AUDIO_FILE
+python3 ld.py /path_to_AUDIO_FILE
 ```
 **Example**
 
@@ -73,13 +73,13 @@ The system automatically creates an output directory with the **same name as the
 To save the results in a directory of your choice:
 
 ```text
-python3 ld.py --output_dir OUTPUT_DIR AUDIO_FILE
+python3 ld.py --output_dir /path_to_OUTPUT_DIR /path_to_AUDIO_FILE
 ```
 
 **Example**
 
 ```text
-python3 ld.py --output_dir /home/pratik/speech/single_file_system_LD/output/sample_audio.wav
+python3 ld.py --output_dir /home/pratik/speech/single_file_system_LD/output /home/pratik/speech/single_file_system_LD/output/sample_audio.wav
 ```
 
 ## 📁 Output
